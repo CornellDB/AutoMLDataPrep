@@ -1,3 +1,5 @@
 .DS_Store
 text_classifier/
 structured_data_classifier/
+notebooks/scripts/__pycache__/
+notebooks/*.npy

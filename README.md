@@ -8,3 +8,7 @@ Automated Machine Learning (AutoML) enables the automation of crucial machine le
 - Following datasets are considered for text classification task:
   - [IRIS](https://archive.ics.uci.edu/dataset/53/iris)
   - [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/)
+
+1. Dataset:
+   The dataset we use for the experiments is IMDB movie reviews. It contains 50,000 movie reviews. We refer to the reviews as the input feature and the sentiment as the binary output feature denoting positive or negative reviews.
+  
