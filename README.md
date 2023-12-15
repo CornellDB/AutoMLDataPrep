@@ -51,4 +51,4 @@ Detailed setup instructions are available in the [setup](../AutoMLDataPrep/setup
 
 ## Results
 
-Details on the implementation and the results can also be found on the project report [here](../AutoMLDataPrep/report/main.pdf).
+Details on the implementation and the results can also be found on the project report [here](report/main.pdf).
