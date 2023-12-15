@@ -6,7 +6,7 @@ In this project, we evaluate the performance of two AutoML frameworks namely, [A
 
 ## Project Setup
 
-Detailed setup instructions are available in the [setup](../AutoMLDataPrep/setup/README.md) folder.
+Detailed setup instructions are available in the [setup](setup/README.md) folder.
 
 ## Code Flow
 
@@ -14,8 +14,8 @@ Detailed setup instructions are available in the [setup](../AutoMLDataPrep/setup
    - Binary text classification
 2. Get the dataset:
    - [IMDB movie reviews](https://ai.stanford.edu/~amaas/data/sentiment/) dataset.
-   - Dataset is stored in [datasets](../datasets/) folder
-   - More information on datasets in available [here](../datasets/README.md)
+   - Dataset is stored in [datasets](datasets/) folder
+   - More information on datasets in available [here](datasets/README.md)
 3. Ensure the AutoML frameworks are installed:
    - Auto Keras
    - TPOT
@@ -31,23 +31,23 @@ Detailed setup instructions are available in the [setup](../AutoMLDataPrep/setup
 5. Additional scripts: 
 
    There are also additional scripts created for easy access and repeat use. 
-   - [add_noise.py](../notebooks/scripts/add_noise.py): Adds Gaussian or Random noise to the text data.
-   - [data_prepocess.py](../notebooks/scripts/data_preprocess.py): Pre-processes and cleans the data using basic NLP approaches.  
-   - [plot_model_scores.py](../notebooks/scripts/plot_model_scores.py): Creates plots for comparing evaluation scores (F1, Recall, Precision) for various models.
+   - [add_noise.py](notebooks/scripts/add_noise.py): Adds Gaussian or Random noise to the text data.
+   - [data_prepocess.py](notebooks/scripts/data_preprocess.py): Pre-processes and cleans the data using basic NLP approaches.  
+   - [plot_model_scores.py](notebooks/scripts/plot_model_scores.py): Creates plots for comparing evaluation scores (F1, Recall, Precision) for various models.
   
 ## Experiments
 
 ### On Clean Data
 
-1. [TextClassification-CleanData-AutoKeras](../notebooks/textclf_cleandata_autokeras.ipynb)
-2. [TextClassification-CleanData-NaiveBayes](../notebooks/textclf_cleandata_naivebayes.ipynb)
-3. [TextClassification-CleanData-TPOT](../notebooks/textclf_cleandata_tpot.ipynb)
+1. [TextClassification-CleanData-AutoKeras](notebooks/textclf_cleandata_autokeras.ipynb)
+2. [TextClassification-CleanData-NaiveBayes](notebooks/textclf_cleandata_naivebayes.ipynb)
+3. [TextClassification-CleanData-TPOT](notebooks/textclf_cleandata_tpot.ipynb)
 
 ### On Noisy Data
 
-1. [TextClassification-NoisyData-AutoKeras](../notebooks/textclf_noisydata_autokeras.ipynb)
-2. [TextClassification-NoisyData-NaiveBayes](../notebooks/textclf_noisydata_naivebayes.ipynb)
-3. [TextClassification-NoisyData-TPOT](../notebooks/textclf_noisydata_tpot.ipynb)
+1. [TextClassification-NoisyData-AutoKeras](notebooks/textclf_noisydata_autokeras.ipynb)
+2. [TextClassification-NoisyData-NaiveBayes](notebooks/textclf_noisydata_naivebayes.ipynb)
+3. [TextClassification-NoisyData-TPOT](notebooks/textclf_noisydata_tpot.ipynb)
 
 ## Results
 

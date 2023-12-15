@@ -20,8 +20,8 @@ To evaluate the performance of AutoML suggested algorithms with two different ki
 We looked at multiple ways of adding the noise.
 
 1. Gaussian Noise:
-   
-   Gaussian noise is a type of random noise that follows Gaussian distribution. It is defined based on the mean and standard deviation provided and hence can be controlled. This type of noise resembles natural noise that occurs in nature. Below is the snippet of the code implemented to generate random noise. The noise is added to the text at the character level. 
+
+   Gaussian noise is a type of random noise that follows Gaussian distribution. It is defined based on the mean and standard deviation provided and hence can be controlled. This type of noise resembles natural noise that occurs in nature. Below is the snippet of the code implemented to generate random noise. The noise is added to the text at the character level.
 
 2. Random Noise:
 
