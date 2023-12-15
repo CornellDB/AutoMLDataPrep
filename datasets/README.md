@@ -1,17 +1,4 @@
-# Datasets used for experiments
-
-## IRIS
-
-A small classic dataset from Fisher, 1936. One of the earliest known datasets used for evaluating classification methods. [Link to source](https://archive.ics.uci.edu/dataset/53/iris), [Link to dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
-
-|Specification|Value|
-|----|----|
-|Dataset Characteristics|Tabular|
-|Subject Area|Biology|
-|Associated Tasks|Classification|
-|Feature Type|Real|
-|# Instances|150|
-|# Features|4|
+# Dataset used for experiments
 
 ## IMDB
 
@@ -33,8 +20,9 @@ To evaluate the performance of AutoML suggested algorithms with two different ki
 We looked at multiple ways of adding the noise.
 
 1. Gaussian Noise:
-2. Impulse Noise:
-3. Salt-and-Pepper Noise:
-4. Random Noise:
+   
+   Gaussian noise is a type of random noise that follows Gaussian distribution. It is defined based on the mean and standard deviation provided and hence can be controlled. This type of noise resembles natural noise that occurs in nature. Below is the snippet of the code implemented to generate random noise. The noise is added to the text at the character level. 
 
-The random noise approach was finalized as is more realistic than other synthetic approaches discussed above. Since it is also random, there is no traceability or pattern that the model can potentially learn, leading to data leakage.
+2. Random Noise:
+
+    The (true) random noise approach was finalized as it is more realistic than other synthetic approaches discussed above. Since it is also random, there is no traceability or pattern that the model can potentially learn, leading to data leakage. Below is the snippet of the code implemented to generate random noise.

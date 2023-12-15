@@ -4,9 +4,19 @@ from nltk.stem import WordNetLemmatizer
 
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('punkt')
 w2v_model = None
 
 def preprocess_text(text):
+  """
+  Pre-processes and cleans the data using basic NLP approaches.  
+  
+  Parameters: 
+    text (str): The input text which needs pre-processing.
+  
+  Returns: 
+    tokens (list): The list of tokens after the sentence is tokenized and processed.
+  """
   tokens = nltk.word_tokenize(text)
   # Remove special characters
   tokens = [word for word in tokens if word.isalpha()]

@@ -1,31 +1,43 @@
-# Installation
+# Project Setup
 
 ## Acknowledgements
 
 - AutoKeras documentation - https://autokeras.com/tutorial/text_classification/
 
-## Steps
-
-1. Identify the dataset
-   1. IMDB dataset for text classification
-   2. IRIS dataset for text classification
-2. Identify the AutoML libraries
-   1. Auto Keras
-   2. TPOT
+- TPOT API - https://epistasislab.github.io/tpot/api/
 
 ## Setup
 
-```zsh
-# Create a new environment for the experiments
-conda activate base
-conda create -n automlenv python=3.8 anaconda
-conda activate automlenv
+1. Create a new environment for the experiments
 
-# Get required AutoKeras dependencies
-pip3 install autokeras
+   ```zsh
+   conda activate base
+   conda create -n automlenv python=3.8 anaconda
+   conda activate automlenv
+   ```
 
-# Get required TPOT dependencies
-conda install numpy scipy scikit-learn pandas joblib pytorch
-pip install deap update_checker tqdm stopit xgboost 
-pip install tpot                                       
-```
+2. Get required AutoKeras dependencies
+
+   ```zsh
+   pip3 install autokeras
+   ```
+
+3. Get required TPOT dependencies
+
+   ```zsh
+   pip install tpot
+   ```
+
+4. Additional packages used in the project
+
+   ```zsh
+   conda install numpy scipy scikit-learn pandas joblib pytorch
+   pip install deap update_checker tqdm stopit xgboost 
+   ```
+
+5. Alternatively, you can use the yml file provided in the setup folder
+
+   ```zsh
+   conda env create -f environment.yml
+   conda activate automlenv
+   ```
